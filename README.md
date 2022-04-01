@@ -34,7 +34,7 @@
 
      vite.config.js获取环境变量，通过 loadEnv 方法获取
 
-     .env.devemopment：为开发环境
+     .env.devemopment：为开发环境，默认开发环境通过 VITE_WEB_PROXY = 'true' 开启代理模式，可修改为false（字符串）关闭代理模式
 
      .env.preproduction： 为预生产/测试环境
 
